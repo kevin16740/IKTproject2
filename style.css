@@ -4,6 +4,12 @@ body{
 .logo{
     width: 100px;
 }
+<<<<<<< HEAD
 .szolghatter{
     background-color: #004e8c;
+=======
+
+iframe {
+    width: 600px; height: 450px; border: 0px;
+>>>>>>> 70d9e9497c3a833731191ed9075e49b3191fe5f3
 }
