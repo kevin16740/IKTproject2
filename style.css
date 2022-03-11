@@ -16,3 +16,9 @@ iframe {
 .form-group{
     margin-bottom: 1rem;
 }
+#Gaborka{
+    float: right;
+}
+.clear-float{
+    clear: both;
+}
