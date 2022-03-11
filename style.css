@@ -13,12 +13,22 @@ iframe {
 .hatter1{
     background-image: url("kepek/MOD_fooldallogo.png")
 }
-.form-group{
-    margin-bottom: 1rem;
-}
 #Gaborka{
     float: right;
 }
 .clear-float{
     clear: both;
+}
+.Mod_web{
+    background-image: url("kepek/MOD_web_bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.form-group{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.form-control{
+    color: #004e8c;
 }
