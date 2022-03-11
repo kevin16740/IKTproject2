@@ -14,22 +14,28 @@
     <div class="container">
         <div class="row">
             <div class="col-12-col-lg-8 col-xxl-5 m-auto">
-                <h2 class="text-center text-uppercase">Vegye fel velünk a kapcsolatot!</h2>
+                <h2 class="text-center text-uppercase form-title">Vegye fel velünk a kapcsolatot!</h2>
                 <form action="#">
                     <div class="form-group">
-                        <input type="text" placeholder="Név" required class="w-100">
+                        <input type="text" placeholder="Név" name="name"required class="form-control w-100">
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="E-mail cím" required class="w-100">
+                        <input type="email" placeholder="E-mail cím" name="email" required class="form-control w-100">
                     </div>
                     <div class="form-group">
-                        <input type="text" placeholder="Telefonszám" required class="w-100">
+                        <input type="text" placeholder="Telefonszám" name="phone" required class="form-control w-100">
                     </div>
-                    <div class="form-group">
-                        <input type="text" placeholder="Üzenet" required class="w-100">
+                    <div class="form-group pt-3">
+                        <textarea type="text" placeholder="Üzenet" name="message" required class="form-control w-100" rows="4"></textarea>
                     </div>
-                    <div class="form-group">
-
+                    <div class="form-group pt-1">
+                        <label for="accept" class="checkbox">
+                            <input type="checkbox" name="accept" id="accept" value="1" required class="mt-1">
+                            <span>Hozzájárulok a megadott adataim kapcsolatfelvétel céljából történő kezeléséhez. <a href="https://www.mod.hu/hu/adatkezelesi-tajekoztato" target="_blank">Adatkezelési tájékoztató</a></span>
+                        </label>
+                    </div>
+                    <div class="text-center sended-block">
+                        <input type="submit" value="Küldés" class="col-md-9 text-uppercase szolghatter text-white">
                     </div>
                 </form>
             </div>
