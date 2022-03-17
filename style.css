@@ -32,3 +32,6 @@ iframe {
 .form-control{
     color: #004e8c;
 }
+.submit{
+    margin-bottom: 1rem;
+}
