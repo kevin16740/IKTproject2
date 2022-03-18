@@ -29,9 +29,14 @@ iframe {
 .form-group{
     margin-bottom: 1rem;
     margin-top: 1rem;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 .form-control{
     color: #004e8c;
+}
+.accept{
+    font-size: 115%;
 }
 .submit{
     margin-bottom: 1rem;
@@ -45,18 +50,32 @@ nav{
 }
 footer{
     box-shadow: 4px 4px 15px grey;
+    font-size: 125%;
 }
 a{
     text-decoration: none;
 }
-<<<<<<< HEAD
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
 .szolg1:hover{
     border: yellow 5px solid;
     padding: white 2px;
-=======
+}
 .border-left{
-    border-left: 1px solid white;
+    border-left: 2px solid white;
     padding-top: 1rem;
     padding-bottom: 1rem;
->>>>>>> 8b261203370438730e7c97f9d422a0685bceccfd
+}
+.border-left2{
+    border: 1px solid #004e8c;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.border-right{
+    border-right: 2px solid white;
+}
+.made-by{
+    font-size: 110%;
 }
