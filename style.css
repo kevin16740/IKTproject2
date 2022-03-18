@@ -24,6 +24,7 @@ iframe {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    opacity: 0.9;
 }
 .form-group{
     margin-bottom: 1rem;
@@ -47,4 +48,9 @@ footer{
 }
 a{
     text-decoration: none;
+}
+.border-left{
+    border-left: 1px solid white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
