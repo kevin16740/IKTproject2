@@ -48,3 +48,7 @@ footer{
 a{
     text-decoration: none;
 }
+.szolg1:hover{
+    border: yellow 5px solid;
+    padding: white 2px;
+}
