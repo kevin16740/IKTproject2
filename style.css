@@ -8,7 +8,13 @@ body{
     background-color: #004e8c;
 }
 iframe {
-    width: 600px; height: 450px; border: 0px;
+    width: 650px;
+    height: 443px;
+    border: 1px solid rgb(297, 277, 263);
+    box-shadow: 1px 1px 3px black;
+    position: absolute;
+    top: 126px;
+    left: 900px;
 }
 .hatter1{
     background-image: url("kepek/MOD_fooldallogo.png")
@@ -78,4 +84,16 @@ a:hover{
 }
 .made-by{
     font-size: 110%;
+}
+.nav-item{
+    font-size: 150%;
+}
+.nav-item a{
+    text-decoration: none;
+}
+.nav-link{
+    color: black;
+}
+.foresz{
+    font-size: 150%;
 }
