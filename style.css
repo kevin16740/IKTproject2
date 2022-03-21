@@ -100,3 +100,10 @@ a:hover{
 .hand-shaking{
     float: right;
 }
+.kurzolfeher:hover{
+    border: 3px solid #004e8c;
+    padding: 6px;
+}
+.active{
+    border: 1px black solid;
+}
