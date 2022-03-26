@@ -126,3 +126,10 @@ a:hover{
 .kapcsolat{
     padding: 0px;
 }
+.ajanlat{
+    width: 100px;
+    vertical-align: bottom;
+}
+.media img{
+    width: 500px;
+}
