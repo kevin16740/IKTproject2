@@ -110,3 +110,26 @@ a:hover{
 .lapteteje{
     width: 100px;
 }
+.google-maps {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    border: 0px;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+.kapcsolat{
+    padding: 0px;
+}
+.ajanlat{
+    width: 100px;
+    vertical-align: bottom;
+}
+.media img{
+    width: 500px;
+}
