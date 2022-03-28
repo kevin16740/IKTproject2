@@ -135,9 +135,13 @@ a:hover{
     width: 450px;
     border: 1px solid white;
 }
-@media screen and (max-width: 530px){
+@media screen and (max-width: 580px){
     .media img{
         width: 300px;
+    }
+    .contact-header .foresz{
+        font-size: 125%;
+        padding-left: 20px;
     }
 }
 @media screen and (max-width: 380px) {
