@@ -63,8 +63,9 @@ a:hover{
     text-decoration: underline;
 }
 .szolg1:hover{
-    border: #ffc107 5px solid;
-    padding: white 2px;
+    border: #ffc107 4px solid;
+    padding: white 3px;
+    text-decoration: none;    
 }
 .kurzolszurke:hover{
     border: #ffc107 3px solid;
