@@ -138,3 +138,8 @@ a:hover{
         width: 300px;
     }
 }
+@media screen and (max-width: 380px) {
+    .media img{
+        width: 150px;
+    }   
+}
